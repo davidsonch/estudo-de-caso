@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* Cores do template*/
+/* Efeitos */
+/* Fam├¡lias de fontes */
+/* Dimens├Áes do layout */
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  padding-top: 50px;
+  background-color: #f3d77b;
+  overflow-x: hidden;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.navbar {
+  height: 35px;
+  width: 100%;
+  background-color: #1c3d5f;
+  box-shadow: 2px 3px 5px #222;
+  border: none;
+}
+.navbar .navbar-brand {
+  position: relative;
+  top: 8px;
+  background-image: url("../../img/logo.png");
+  width: 200px;
+  height: 35px;
+}
+
+.nav-pills li.active a {
+  background-color: #FFF !important;
+  color: #1c3d5f !important;
+}
+
+.nav {
+  position: relative;
+  top: 4px;
+}
+.nav li a {
+  color: #FFF;
+  font-weight: bold;
+}
+.nav li a:hover {
+  background-color: transparent;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.footer {
+  height: 49px;
+  width: 100%;
+  background-color: #1c3d5f;
+  box-shadow: 0 0 0 #222, 0 -3px 5px #222;
+}
+.footer .text-muted {
+  position: relative;
+  top: 13px;
+  color: #FFF;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=modelo.css.map */

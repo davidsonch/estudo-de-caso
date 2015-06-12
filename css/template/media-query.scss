@@ -1,0 +1,66 @@
+@import "config";
+
+@media (max-width: 1200px) {
+  .img{
+    display: none;
+  }
+  .navbar-toggle{
+    background-color: $cor2 !important;
+    border-color: #FFF !important;
+    overflow: hidden;
+  }
+  .navbar-toggle:hover{
+    background-color: $cor2 !important;
+  }
+  .navbar-collapse{
+    overflow: hidden !important;
+    border: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  #contato {
+    .info-content {
+      display: none;
+    }
+    .form-horizontal {
+      position: relative;
+      top: 5px;
+      .btn {
+        position: relative;
+        top: -1px;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .img{
+    display: none;
+  }
+  #home{
+    .row{
+      position: relative;
+      left: -10px !important;
+    }
+    h1{
+      font-size: 22pt !important;
+    }
+    p{
+      font-size: 10pt !important;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .row{
+    position: relative;
+    left: 45px !important;
+  }
+  h1{
+    font-size: 22pt !important;
+  }
+  p{
+    font-size: 10pt !important;
+  }
+}

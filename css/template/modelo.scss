@@ -1,0 +1,69 @@
+@import "config";
+* {
+  margin: 0;
+}
+
+html, body {
+  height: $full-height;
+}
+
+body{
+  padding-top: 50px;
+  background-color: $cor5;
+  overflow-x: hidden;
+  font-family: $fontes;
+  font-size: $font-size;
+}
+
+.navbar{
+  height: 35px;
+  width: $full-width;
+  background-color: $cor1;
+  box-shadow: $sombra;
+  border: $border;
+  .navbar-brand{
+    position: relative;
+    top: 8px;
+    background-image: url("../../img/logo.png");
+    width: 200px;
+    height: 35px;
+  }
+}
+
+.nav-pills{
+  li.active {
+    a {
+      background-color: $cor4 !important;
+      color: $cor1 !important;
+    }
+  }
+}
+
+.nav {
+  position: relative;
+  top: 4px;
+  li {
+    a {
+      color: $cor4;
+      font-weight: bold;
+    }
+    a:hover {
+      background-color: transparent;
+      color: $cor4;
+      font-weight: bold;
+    }
+  }
+}
+
+.footer{
+  height: $footer-height;
+  width: $full-width;
+  background-color: $cor1;
+  box-shadow: 0 0 0 #222, 0 -3px 5px #222;
+  .text-muted{
+    position: relative;
+    top: 13px;
+    color: $cor4;
+    font-weight: bold;
+  }
+}

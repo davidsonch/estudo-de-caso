@@ -1,0 +1,24 @@
+/* Cores do template*/
+$cor1: lighten(#16304B, 5%);
+$cor2: #F05E35;
+$cor3: #2A9E79;
+$cor4: #FFF; //fonnte e menu
+$cor5: lighten(#EFC94C, 10%);
+
+/* Efeitos */
+$sombra: 2px 3px 5px #222;
+
+/* Famílias de fontes */
+$fontes: arial, helvetica, sans-serif;
+
+/* Dimensões do layout */
+$centro: 50%;
+$full-height: 2 * $centro;
+$full-width: 2 * $centro;
+$row-width: 100%;
+$row-height: 320px;
+$font-size: 14px;
+$border-radius: 5px;
+$border: none;
+$footer-height: 49px;
+$push-height: 100 - $footer-height;
